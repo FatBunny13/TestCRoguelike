@@ -1,5 +1,8 @@
 #pragma once
 #include "libtcod.hpp"
+#include "SDL.h"
+#include "SDL_events.h"
+
 #include <vector> // #include directive
 #include <string>
 
@@ -13,6 +16,6 @@ namespace N {
 		};
 
 
-		struct action handle_keys(action,char,TCOD_keycode_t);
+		struct action handle_keys(action, SDL_Event*);
 
 }
