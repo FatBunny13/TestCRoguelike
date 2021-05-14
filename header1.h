@@ -16,6 +16,6 @@ namespace N {
 		};
 
 
-		struct action handle_keys(action, SDL_Event*);
+		void handle_keys(action&, SDL_Event*);
 
 }
