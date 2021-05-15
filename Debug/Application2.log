@@ -1,3 +1,3 @@
-﻿  Source.cpp
-c:\users\aabra\source\repos\application2\application2\source.cpp(33): warning C4189: 'ev': local variable is initialized but not referenced
+﻿  map.cpp
+c:\users\aabra\source\repos\application2\application2\map.cpp(42): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Application2.vcxproj -> C:\Users\aabra\source\repos\Application2\Debug\Application2.exe

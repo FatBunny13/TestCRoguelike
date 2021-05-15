@@ -2,7 +2,7 @@
 
 struct Tile {
 	bool canWalk; // can we walk through this tile?
-	Tile() : canWalk(true) {}
+	Tile() : canWalk(false) {}
 };
 
 class Map {
@@ -13,6 +13,8 @@ public:
 	~Map();
 	bool isWall(int x, int y) const;
 	void render() const;
+	void dig(int x1, int y1);
+	bool inMap(int x, int y) const;
 protected:
 	Tile *tiles;
 
